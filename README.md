@@ -307,3 +307,83 @@ CYBERDOKIE/
 ```
 
 One important distinction: The Raspberry Pi 5 is the main computer, while an STM32 can be added later for dedicated real-time hardware control. You don't need both to get Cyberdokie working initially.
+### 13\. Bill of Materials (BOM) — CYBERDOKIE
+
+The following is a proposed component list for building the Raspberry Pi 5 (8GB) touchscreen cyberdeck. Prices are approximate estimates in INR and may vary by supplier.
+
+![Eben Upton on the Raspberry Pi 5, Its Development, and Beyond | Elektor Magazine](https://images.openai.com/static-rsc-4/wyZlmgtYA0QJYtFz9LSLqJagmsLLc114hMq7-SUeuuvD98Eiy2EfYNstgIbrxRK9X6JL2cdK6BDhkaAx75cfrJaHp1eIKGWUcYhAr23b76uQ9JEtL44inzZjbOnHMamKPQ5-i1d9_LvLcfcmmALSAe11aHZMdGMF9ihw_5e5ex6PclkNHi2JF1pFecnqXw9U?purpose=fullsize)
+
+![Raspberry Pi LCD - 7" Touchscreen Display](https://images.openai.com/static-rsc-4/n0hypsv2LVKm7D3riDnp9V5V_9bZDp4QHBul7_HKFrAeicUNRi1eZ1sQbFDQgMOPjxmK32HQ3Y5QPSwZwAyy0ygo1sijvXnBNltqHI2Vhvmfa39Th0E3oR2JuCiaanKNee3DT4pXS5duOHJmWvJ0YmYvgtrAiHutZsMGGmHob-4eRKsCB4zm0oRfIV6RwQos?purpose=fullsize)
+
+![Official Raspberry Pi 5 Active Cooler | Smart Fan & Heatsink](https://images.openai.com/static-rsc-4/kGsTKtGjAudiOjXdb1RsLw_bxoXKR_vlLKxztPgy040GUuJFTe4HiTgCvVPadCy9ex0-ST9rQax7BvDOkaoh7UPq04nN3N3Lv3tVsw0oBXaB3AzzN10JT_y1RtVyq5vfPksv0rDSPpyRMsG9k730maZSlZ977yx7r5LaZIiSpQ8u4jGRGJiTabsloFVakzug?purpose=fullsize)
+
+![Getting Started with Raspberry Pi 5: A Complete Beginner’s Guide
+ – REES52](https://images.openai.com/static-rsc-4/EROdemX6npM9EdB-PfZvN-8OqfggHPsEckg_OdWXGZWa334B1Mkxyl3VzgRdaCshpALPxAisq9khMcXsoMeBZtyIno-7a3iIoIomNQ7-gN0YcdGTadWOMxu7vkAMETYrHTbseYtdkUdjoNjCRATtmyFkd9KM5K_tWioYpj-3e-77xj8fQACacytwL4t6UhX8?purpose=fullsize)
+
+![Virtuscope Mod — THE CYBERDECK CAFE](https://images.openai.com/static-rsc-4/um7YdsfvoefDC5aK2uzlNWeEncDrT4RkFhxQr5flNBaurZVNnF6vZnrzkq-k-M9qCns1L1mus9be_XloPxcVz6QJY271yOd5M7GIjoK0m6qKLPN9CYuxs0SABfxopEYJqaOnDpzVZnGmStt73IQca16YxSO8-gem6n2VcSSw4kuM-odmgh86qJRedjIguWyB?purpose=fullsize)
+
+![This Penkesu-Inspired Cyberdeck Features a PocketType Keyboard - Hackster.io](https://images.openai.com/static-rsc-4/MuRl34EU93Z4ewlZJ1ylZWRcwTxOOjqc4J1_SX3cEYdl5qAWjH5_zE0rxo6P80qxQgStAtC5COkOQRCjBCioYJ_m3szdlFSUD26gA9vQaZjlrey_72Z_F-32Lgvbz5gDjL2HRqSqlEMwxZWBhoJAkQoSg_A36FtNltepq16b_X7tWcJcGieX4n0PZJ0iBzjW?purpose=fullsize)
+
+### A. Main hardware
+
+| No. | Component                  | Qty. | Estimated price |
+| --- | -------------------------- | ---- | --------------- |
+| 1   | Raspberry Pi 5 8GB         | 1    | ₹10,000–13,000  |
+| 2   | 7-inch touchscreen         | 1    | ₹3,000–5,500    |
+| 3   | Active cooler              | 1    | ₹400–800        |
+| 4   | microSD card (128GB)       | 1    | ₹800–1,400      |
+| 5   | NVMe HAT                   | 1    | ₹1,200–2,000    |
+| 6   | NVMe SSD (256GB)           | 1    | ₹1,500–2,500    |
+| 7   | Compact keyboard           | 1    | ₹700–1,500      |
+| 8   | USB-C power supply (5V/5A) | 1    | ₹1,000–1,800    |
+
+### B. Supporting hardware
+
+| No. | Component                           | Qty.  | Estimated price |
+| --- | ----------------------------------- | ----- | --------------- |
+| 9   | Custom enclosure materials          | 1     | ₹800–1,500      |
+| 10  | Cooling vents and mounting hardware | 1 set | ₹200–400        |
+| 11  | USB hub (if required)               | 1     | ₹400–800        |
+| 12  | GPIO jumper wires                   | 1 set | ₹100–200        |
+| 13  | Power switch                        | 1     | ₹50–150         |
+| 14  | HDMI cable / adapters               | 1 set | ₹200–400        |
+| 15  | Screws and spacers                  | 1 set | ₹100–200        |
+
+### C. Optional expansion components
+
+| Component                           | Purpose                   | Estimated price |
+| ----------------------------------- | ------------------------- | --------------- |
+| STM32 development board             | Embedded hardware control | ₹500–1,200      |
+| Microphone module                   | Voice input               | ₹150–400        |
+| Mini speaker                        | Audio output              | ₹200–500        |
+| Camera module                       | Image capture             | ₹1,000–2,000    |
+| Environmental sensor                | Environmental monitoring  | ₹150–500        |
+| Battery and power-management system | Portable operation        | ₹1,500–3,000    |
+
+### Estimated project budget
+
+Core cyberdeck estimate
+
+### ₹20,000–32,000
+
+With optional expansions
+
+### ₹23,500–39,000
+
+Indicative estimates, not verified live quotations. Excludes shipping and any fabrication charges not listed.
+
+BOM engineering notes:
+
+* The NVMe HAT and SSD are optional; the microSD card is sufficient for initial development.
+
+* Check the touchscreen's physical compatibility and interface before purchasing.
+
+* The 5V/5A supply is recommended for the Pi 5; use a properly designed battery solution for portability.
+
+* The STM32 board is optional and is not required for the Raspberry Pi to function.
+
+This BOM can serve as the initial procurement document for Cyberdokie.
+<img width="960" height="360" alt="3cb37f5e636e49c2557e20d23799f85b441c421b9322f84c6bc8955ee95fef4a" src="https://github.com/user-attachments/assets/debae1e8-dd12-4e12-9117-a17d6677e2ed" />
+
+
+
